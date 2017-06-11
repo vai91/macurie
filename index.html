@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="macurie">
 	<head>
-		<link rel="stylesheet" type="text/css" href="/Users/mehmetefeekiner/Documents/macurie/bootstrap.min.css">
+	<!-- 	<link rel="stylesheet" type="text/css" href="/Users/mehmetefeekiner/Documents/macurie/	 						bootstrap.min.css">
+	-->
+		<title>Macurie - Conferance Managament Solutions</title>
 
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<title>Macurie - Conferance Managament Solutions</title>
-		<!-- <script src='./macurie/angular.min.js'></script> -->
+			<!-- <script src='./macurie/angular.min.js'></script> -->
 		<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js'></script> <!-- will load angular. -->
-
-		<script type="text/javascript" src='/Users/mehmetefeekiner/Documents/macurie/app.js'></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<script type="text/javascript" src='/Users/mehmetefeekiner/Documents/macurie/app.js'></script>
+  		<link rel="stylesheet" href="/Users/mehmetefeekiner/Documents/macurie/font-awesome-4.7.0/css/font-awesome.min.css">
 		<style>
 		.new-class {
 			font-size: 50px;
@@ -19,12 +22,30 @@
 
 		</style>
 	</head>
-	<body ng-app style="background-color: grey ">
-		<!-- <script type="text/javascript" src="angular.min.js"> </script>
-		<script type="text/javascript" src="app.js"></script> -->
+	<!-- 	<body ng-app style="background-color: grey "> 
+			<script type="text/javascript" src="angular.min.js"> </script>
+			<script type="text/javascript" src="app.js"></script> 
+			<p class='new-class'>{{"Hello" + " you"}} </p>
+			<input type="text" ng-model="Search" placeholder="Search ongoing conferences here." size="50px">
+			</body>
+	-->
+	<body>
+		<div class="jumbotron text-center">
+		<h1> Macurie </h1>
+		<p>Conference Management System Solutions on Your Fingertips!</p>
+		</div>
 
-		<p class='new-class'>{{"Hello" + " you"}} </p>
-		<input type="text" ng-model="Search" placeholder="Search ongoing conferences here." size="50px">
+		<div class="image" src="/Users/mehmetefeekiner/Documents/macurie/macurieLogo.png">
+		</div>
+
+		<div class="input-group margin-bottom-sm">
+  		<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
+  		<input class="form-control" type="text" placeholder="Email address">
+		</div>
+		<div class="input-group">
+  		<span class="input-group-addon"><i class="fa fa-key fa-fw" aria-hidden="true"></i></span>
+  		<input class="form-control" type="password" placeholder="Password">
+		</div>
 
 	</body>
 </html>
