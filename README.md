@@ -1,0 +1,2 @@
+# macurie
+Conference Management System
