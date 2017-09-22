@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"g",
+				"green"
+			],
+			[
+				"pos",
+				"object-position"
+			],
+			[
+				"align",
+				"align-self"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
 				"background",
 				"background-image"
 			],
@@ -28,29 +44,13 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"contents": "var myName = \"Efos & Yizos\";\n\nvar red = [0, 100, 63];\nvar orange = [40, 100, 60];\nvar green = [75, 100, 40];\nvar blue = [196, 77, 55];\nvar purple = [280, 50, 60];\n\nvar letterColors = [red, orange, green, blue, purple];\n\nbounceBubbles();\ndrawName(myName, letterColors);",
+			"file": "minnosluklarVol1.js",
+			"file_size": 268,
+			"file_write_time": 131425339350000000,
 			"settings":
 			{
-				"buffer_size": 1076,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 39,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app.js",
-			"settings":
-			{
-				"buffer_size": 41,
-				"encoding": "UTF-8",
+				"buffer_size": 268,
 				"line_ending": "Unix"
 			}
 		}
@@ -87,17 +87,32 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/mehmetefeekiner/Documents/macurie"
 	],
 	"file_history":
 	[
+		"/Users/mehmetefeekiner/Documents/macurie/index.html",
+		"/Users/mehmetefeekiner/Documents/macurie/minnosluklarVol1.css",
+		"/Users/mehmetefeekiner/Documents/macurie/minnosluklarVol1.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/index.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/macurie.css",
+		"/Users/mehmetefeekiner/Downloads/country.svg",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/conference.detail.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/conference.list.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/dashboard.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/login.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/paper.add.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/paper.detail.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/register.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/review.add.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/review.detail.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie-master/frontend/Views/home.view.html",
+		"/Users/mehmetefeekiner/Documents/macurie/app.js",
+		"/Users/mehmetefeekiner/Documents/macurie/README.md",
 		"/Users/mehmetefeekiner/Documents/macurie/angular.min.js",
 		"/Users/mehmetefeekiner/Documents/macurie/bootstrap.min.css",
 		"/Users/mehmetefeekiner/Desktop/Macurie/index.html",
 		"/Users/mehmetefeekiner/Desktop/Macurie/src/index.html",
-		"/Users/mehmetefeekiner/Documents/macurie/index.html",
 		"/Users/mehmetefeekiner/Desktop/Macurie/src/js/app.js",
-		"/Users/mehmetefeekiner/Documents/macurie/app.js",
 		"/Users/mehmetefeekiner/Desktop/tryangular/index.html",
 		"/Users/mehmetefeekiner/Desktop/tryangular/js/angular.min.js",
 		"/Users/mehmetefeekiner/Desktop/tryangular/js/tryangular164.sublime-project",
@@ -134,6 +149,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"color",
 			"js",
 			" "
 		],
@@ -153,81 +169,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "minnosluklarVol1.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1076,
+						"buffer_size": 268,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								247,
-								247
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 39,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 41,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								236,
+								236
 							]
 						],
 						"settings":
@@ -250,7 +209,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -321,7 +280,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 294.0,
+	"side_bar_width": 302.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
